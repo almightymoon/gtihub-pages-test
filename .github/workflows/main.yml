@@ -19,7 +19,7 @@ jobs:
           node-version: "14" # Adjust to the Node.js version required by your Vite project
 
       - name: Install dependencies
-        run: npm install
+        run: npm install -f 
 
       - name: Build project
         run: npm run build
