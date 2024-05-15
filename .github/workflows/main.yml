@@ -23,9 +23,6 @@ jobs:
 
       - name: Build project
         run: npm run build
-
-      - name: build preview
-        run: npm run preview
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3.7.0 # Specify a specific version
