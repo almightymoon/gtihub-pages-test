@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: `/github-pages-test`,
+  base: `github-pages-test`,
   server: {
     headers: {
       "Access-Control-Allow-Origin": "*",
