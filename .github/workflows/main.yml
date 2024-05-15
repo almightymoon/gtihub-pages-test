@@ -23,6 +23,10 @@ jobs:
 
       - name: Build project
         run: npm run build
+        
+      - name: run project
+        run: npm run start
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
